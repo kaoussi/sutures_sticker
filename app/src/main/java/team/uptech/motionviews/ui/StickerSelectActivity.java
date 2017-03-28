@@ -67,7 +67,7 @@ public class StickerSelectActivity extends AppCompatActivity {
             R.drawable.asset39,
             R.drawable.asset40,
             R.drawable.asset41,
-            R.drawable.asset42
+            R.drawable.asset42,
     };
 
     @Override

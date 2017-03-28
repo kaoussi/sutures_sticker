@@ -30,18 +30,7 @@ public class FontProvider {
 
         // populate fonts
         fontNameToTypefaceFile = new HashMap<>();
-        fontNameToTypefaceFile.put("Arial", "Arial.ttf");
-        fontNameToTypefaceFile.put("Eutemia", "Eutemia.ttf");
-        fontNameToTypefaceFile.put("GREENPIL", "GREENPIL.ttf");
-        fontNameToTypefaceFile.put("Grinched", "Grinched.ttf");
         fontNameToTypefaceFile.put("Helvetica", "Helvetica.ttf");
-        fontNameToTypefaceFile.put("Libertango", "Libertango.ttf");
-        fontNameToTypefaceFile.put("Metal Macabre", "MetalMacabre.ttf");
-        fontNameToTypefaceFile.put("Parry Hotter", "ParryHotter.ttf");
-        fontNameToTypefaceFile.put("SCRIPTIN", "SCRIPTIN.ttf");
-        fontNameToTypefaceFile.put("The Godfather v2", "TheGodfather_v2.ttf");
-        fontNameToTypefaceFile.put("Aka Dora", "akaDora.ttf");
-        fontNameToTypefaceFile.put("Waltograph", "waltograph42.ttf");
 
         fontNames = new ArrayList<>(fontNameToTypefaceFile.keySet());
     }

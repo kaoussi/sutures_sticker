@@ -179,7 +179,7 @@ public class MotionView  extends FrameLayout {
     public Bitmap getThumbnailImage() {
         selectEntity(null, false);
 
-        Bitmap bmp = Bitmap.createBitmap(getWidth(), getHeight(), Bitmap.Config.ARGB_8888);
+        Bitmap bmp = Bitmap.createBitmap(getWidth(), getHeight(), Bitmap.Config.ARGB_4444);
         // IMPORTANT: always create white background, cos if the image is saved in JPEG format,
         // which doesn't have transparent pixels, the background will be black
         bmp.eraseColor(Color.WHITE);
