@@ -66,7 +66,7 @@ public class MainActivity extends AppCompatActivity implements TextEditorDialogF
         textEntityEditPanel = findViewById(R.id.main_motion_text_entity_edit_panel);
         motionView.setMotionViewCallback(motionViewCallback);
 
-        addSticker(R.drawable.asset10);
+        addSticker(R.drawable.asset1);
 
         initTextEntitiesListeners();
     }
