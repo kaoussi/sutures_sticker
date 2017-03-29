@@ -31,6 +31,7 @@ import team.uptech.motionviews.widget.MotionView;
 import team.uptech.motionviews.widget.entity.ImageEntity;
 import team.uptech.motionviews.widget.entity.MotionEntity;
 import team.uptech.motionviews.widget.entity.TextEntity;
+import android.support.v7.app.ActionBar;
 
 public class MainActivity extends AppCompatActivity implements TextEditorDialogFragment.OnTextLayerCallback {
 
@@ -60,7 +61,17 @@ public class MainActivity extends AppCompatActivity implements TextEditorDialogF
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+<<<<<<< HEAD
         getSupportActionBar().hide();
+=======
+        //Hide ActionBar
+        ActionBar actionBar = getSupportActionBar();
+        actionBar.hide();
+
+
+
+
+>>>>>>> cd8f723a64ab389fe6c808db6779a11c2ef3ea10
 
         this.fontProvider = new FontProvider(getResources());
 
@@ -213,6 +224,8 @@ public class MainActivity extends AppCompatActivity implements TextEditorDialogF
         super.onCreateOptionsMenu(menu);
         getMenuInflater().inflate(R.menu.main_menu, menu);
         return true;
+
+
     }
 
     @Override
@@ -255,7 +268,7 @@ public class MainActivity extends AppCompatActivity implements TextEditorDialogF
         textLayer.setFont(font);
 
         if (BuildConfig.DEBUG) {
-            textLayer.setText("Hello, world :))");
+            textLayer.setText("This is Sutures.");
         }
 
         return textLayer;
