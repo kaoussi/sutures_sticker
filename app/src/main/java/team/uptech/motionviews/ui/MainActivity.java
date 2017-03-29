@@ -60,6 +60,14 @@ public class MainActivity extends AppCompatActivity implements TextEditorDialogF
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        //Hide ActionBar
+
+        getSupportActionBar().hide();
+
+
+
+
+
         this.fontProvider = new FontProvider(getResources());
 
         motionView = (MotionView) findViewById(R.id.main_motion_view);
@@ -211,6 +219,8 @@ public class MainActivity extends AppCompatActivity implements TextEditorDialogF
         super.onCreateOptionsMenu(menu);
         getMenuInflater().inflate(R.menu.main_menu, menu);
         return true;
+
+
     }
 
     @Override
@@ -253,7 +263,7 @@ public class MainActivity extends AppCompatActivity implements TextEditorDialogF
         textLayer.setFont(font);
 
         if (BuildConfig.DEBUG) {
-            textLayer.setText("Hello, world :))");
+            textLayer.setText("This is Sutures.");
         }
 
         return textLayer;

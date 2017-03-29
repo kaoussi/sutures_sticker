@@ -28,9 +28,7 @@ import java.util.List;
 import team.uptech.motionviews.R;
 import team.uptech.motionviews.widget.entity.MotionEntity;
 
-/**
- * Created on 9/29/16.
- */
+
 
 public class MotionView  extends FrameLayout {
 
