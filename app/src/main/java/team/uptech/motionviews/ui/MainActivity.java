@@ -61,17 +61,13 @@ public class MainActivity extends AppCompatActivity implements TextEditorDialogF
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-<<<<<<< HEAD
         getSupportActionBar().hide();
-=======
         //Hide ActionBar
         ActionBar actionBar = getSupportActionBar();
         actionBar.hide();
 
 
 
-
->>>>>>> cd8f723a64ab389fe6c808db6779a11c2ef3ea10
 
         this.fontProvider = new FontProvider(getResources());
 
