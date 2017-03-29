@@ -60,6 +60,8 @@ public class MainActivity extends AppCompatActivity implements TextEditorDialogF
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        getSupportActionBar().hide();
+
         this.fontProvider = new FontProvider(getResources());
 
         motionView = (MotionView) findViewById(R.id.main_motion_view);
