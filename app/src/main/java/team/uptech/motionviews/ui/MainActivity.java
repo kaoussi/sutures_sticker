@@ -31,6 +31,7 @@ import team.uptech.motionviews.widget.MotionView;
 import team.uptech.motionviews.widget.entity.ImageEntity;
 import team.uptech.motionviews.widget.entity.MotionEntity;
 import team.uptech.motionviews.widget.entity.TextEntity;
+import android.support.v7.app.ActionBar;
 
 public class MainActivity extends AppCompatActivity implements TextEditorDialogFragment.OnTextLayerCallback {
 
@@ -61,8 +62,8 @@ public class MainActivity extends AppCompatActivity implements TextEditorDialogF
         setContentView(R.layout.activity_main);
 
         //Hide ActionBar
-
-        getSupportActionBar().hide();
+        ActionBar actionBar = getSupportActionBar();
+        actionBar.hide();
 
 
 
